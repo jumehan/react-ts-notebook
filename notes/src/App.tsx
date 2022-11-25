@@ -5,6 +5,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 import useLocalStorage from "./useLocalStorage";
 import NewNote from "./NewNote";
+import NoteList from "./NoteList";
 
 type Note = {
   id: string;
@@ -60,7 +61,7 @@ function App() {
   return (
     <Container className="my-4">
       <Routes>
-        <Route path="/" element={<h1>Home</h1>} />
+        <Route path="/" element={<NoteList availableTags={tags} />} />
         <Route
           path="/new"
           element={

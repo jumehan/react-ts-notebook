@@ -12,12 +12,12 @@ function useLocalStorage<T>(key: string, initialValue: T | (() => T)) {
     } else {
       return JSON.parse(jsonValue);
     }
-  })
+  });
   useEffect(() => {
-    localStorage.setItem(key, JSON.stringify(value))
-  }, [value, key])
+    localStorage.setItem(key, JSON.stringify(value));
+  }, [value, key]);
 
-  return [value, setValue] as [T, typeof setValue]
+  return [value, setValue] as [T, typeof setValue];
 }
 
 export default useLocalStorage;
