@@ -1,43 +1,37 @@
-# 🪶 notebook
-#### todo app
->  👩🏻‍💻 small todo react project to practice front-end react development
+# 📝 notebook
+#### markdown note-taking app with tags
+>  👩🏻‍💻 react typescrip practice
 
 #### ✨ features ✨:
-* add single todos
-* list all todos
-* edit and delete todos
-* highest priority todos
+* add, update, delete notes
+* notes use mardown
+* add tags to notes
+* search bar to filter notes
+* add, update, delete tags
 
-#### ✨ accomplishments ✨:
-* design component hierarchy
-* test components
+#### ✨ new-to-me ✨:
+* 1st trial vite vs create-react-app
+* typescript react practice
+* react hooks practice
 --------------------------------------------------------
 ## preview & demo:
 ![preview img](/png)
 
 ## technologies:
-* language: CSS, JavaScript
-* framework: React
+* language: CSS, JavaScript, JSX, React, TypeScript
+* framework: React-TypeScript
 
 ## issues & todos:
-- [ ] refactor code
-- [ ] fix issue with fireEvent in tests
-- [x] write tests
+- [ ] documentation
+- [ ] host live demo
+- [ ] move crud functions and localStorage into React Context
 
 ### future functionality:
-- [x] add inspiration quotes / connect to a Quotes API
-- [ ] add completed status to todos
-- [ ] add validation
-- [ ] SASS styling
-- [ ] connect to a image API and cycle through images
-- [ ] saving todos to localStorage
-- [ ] connect to a weather API to show current temp
+- [ ] add backend to save notes, add user accounts vs localStorage
 
 
 ## setup:
-In the project directory, you can run:
-##### `npm install`
-##### `npm start`
+##### ``
 
 
 
