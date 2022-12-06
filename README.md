@@ -1,6 +1,6 @@
 # 📝 notebook
 #### markdown note-taking app with tags
->  👩🏻‍💻 react typescrip practice
+>  👩🏻‍💻 react typescript practice
 
 #### ✨ features ✨:
 * add, update, delete notes
@@ -10,7 +10,7 @@
 * add, update, delete tags
 
 #### ✨ new-to-me ✨:
-* 1st trial vite vs create-react-app
+* vite (1st trial)
 * typescript react practice
 * react hooks practice
 --------------------------------------------------------
