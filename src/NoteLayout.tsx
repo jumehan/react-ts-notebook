@@ -23,4 +23,4 @@ export function useNote() {
   return useOutletContext<Note>();
 }
 
-export default NoteLayout
+export default NoteLayout;
