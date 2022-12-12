@@ -1,8 +1,13 @@
 import { useEffect, useState } from "react";
 
+/** useLocalStorage React hook
+ * stores [key: initialValue] in localStorage 
+ */
 function useLocalStorage<T>(key: string, initialValue: T | (() => T)) {
   const [value, setValue] = useState<T>(() => {
+    // get from local storage by key
     const jsonValue = localStorage.getItem(key);
+
     if (jsonValue == null) {
       if (typeof initialValue === "function") {
         return (initialValue as () => T)();
