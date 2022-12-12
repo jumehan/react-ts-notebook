@@ -10,7 +10,7 @@
 * add, update, delete tags
 
 #### ✨ new-to-me ✨:
-* vite (1st trial)
+* vite
 * typescript react practice
 * react hooks practice
 --------------------------------------------------------
